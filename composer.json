@@ -1,0 +1,29 @@
+{
+	"name": "fab/vidi-light",
+	"type": "typo3-cms-extension",
+	"description": "Generic listing of records with versatile ways of interacting with the data, e.g. advanced filter, inline editing, mass editing, ... Veni, vidi, vici!",
+	"homepage": "https://github.com/fabarea/vidi",
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"keywords": [
+		"TYPO3 CMS"
+	],
+	"support": {
+		"issues": "https://github.com/fabarea/vidi_light/issues"
+	},
+	"autoload": {
+		"psr-4": {
+			"Fab\\VidiLight\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "vidi_light"
+		}
+	},
+	"require": {
+		"php": ">=8.1",
+		"typo3/cms-core": "^11 || ^12"
+	}
+}
